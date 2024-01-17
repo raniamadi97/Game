@@ -1,0 +1,182 @@
+
+
+html body{
+
+  background-color: #272b30;
+   font-family: 'Nerko One', cursive, sans-serif !important;
+}
+
+
+nav h2 img{
+
+  max-width: 40px;
+  
+}
+
+
+
+nav  h2{
+
+  color:white!important;
+}
+
+
+
+
+header img{
+  max-height: 30vh;
+}
+
+.navbar {
+  border-radius: 20px !important;
+  background-color: #3a497b!important;
+ 
+}
+
+section{
+
+ background-color: #272b30;
+}
+
+.my-nav{
+  top:-25px;
+  width: 100%;
+}
+
+.main-content{
+
+
+  background-color:  #272b30;
+  width:100%;
+  height:500px;
+  margin-top: 7%;
+}
+
+
+.nav-item a {
+
+  color:white!important;  
+  /* transition: color 10s ease-in-out; */
+  text-transform: uppercase;
+  font-family: 'Nerko One', cursive, sans-serif !important;
+  cursor: pointer;
+  font-weight: 100 ;
+ 
+
+}
+
+
+.nav-item a:hover{
+
+  color:#1fc7ff!important;
+}
+
+
+
+.nav-item a:active{
+
+  color: red !important;
+  /* transition: color 0.5s ease-in-out; */
+
+}
+
+
+.card {
+  width: 18rem;
+  
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  filter: grayscale(80%); 
+  transition: filter 0.3s ease-in-out;
+}
+
+.card:hover img {
+  filter: grayscale(0%);
+}
+
+
+
+
+
+.main-content .card{
+background-color: #272b30;
+color:white ;
+
+
+}
+
+.main-content .card{
+
+  border: 2px solid #212121;
+ 
+
+}
+
+.custom-border{
+
+  border-top: 1px solid #212121 ;
+}
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   light box container  >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#lighboxcontainer{
+  position: fixed;
+  inset: 0;
+  background-color: rgba(178, 14, 14, 0.9);
+  display:none;
+  align-items:center ;
+  justify-content: center;
+  width: 100%;
+  
+  
+     
+  }
+  
+  
+  #lightboxitem{
+      width:80%;
+      height: 100%;
+      display: flex;
+      background-size: 100% 100%;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+  }
+  
+  
+  
+  
+  #lightboxitem i{
+  
+      font-size: 20px;
+      cursor: pointer;
+      margin: 5px;
+  }
+  
+  #close {
+  
+      position: absolute;
+      top:100px;
+      right: 100px;
+      color:black;
+      font-size: 100px;
+  
+  
+  }
+  
+
+
+  .displayImag{
+
+    width: 300px;
+    height: 300px;
+  }
